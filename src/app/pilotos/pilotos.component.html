@@ -1,0 +1,23 @@
+<div class="tabela">
+  <table class="coluna table-striped">
+      <tr>
+        <th class="cabecalho">Posição</th> 
+        <th class="cabecalho">Nome</th>
+        <th class="cabecalho">Equipe</th>
+        <th class="cabecalho">Pontos</th>
+      </tr>
+      <tr *ngFor="let piloto of listaPilotos">
+        <td class="linha">{{piloto.posicao}}</td>  
+        <td class="linha">{{piloto.nome}}</td>
+        <td class="linha">{{piloto.equipe}}</td>
+        <td class="linha">{{piloto.pontos}}</td>
+      </tr>
+    </table>
+</div>
+<div class="botoes">
+  <button class="botao-like" mat-raised-button color="primary" >Like</button>
+  <button class="botao-share" mat-raised-button color="primary">Compartilhar</button>
+</div>
+
+
+  

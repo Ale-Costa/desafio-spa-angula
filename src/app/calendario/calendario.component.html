@@ -1,0 +1,18 @@
+<div class="tabela">
+  <table class="coluna">
+      <tr>
+        <th class="cabecalho">Pista</th>
+        <th class="cabecalho">Localização</th>
+        <th class="cabecalho">Data</th>
+      </tr>
+      <tr *ngFor="let pista of listaCalendario">
+        <td class="linha">{{pista.pista}}</td>
+        <td class="linha">{{pista.localizacao}}</td>
+        <td class="linha">{{pista.data}}</td>
+      </tr>
+    </table>    
+</div>
+<div class="botoes">
+  <button class="botao-like" mat-raised-button color="primary" > Like</button>
+  <button class="botao-share" mat-raised-button color="primary">Compartilhar</button>
+</div>

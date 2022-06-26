@@ -1,0 +1,20 @@
+<div class="tabela">
+  <table class="coluna">
+      <tr>
+        <th class="cabecalho">Posicao</th>
+        <th class="cabecalho">Equipe</th>
+        <th class="cabecalho">Motor</th>
+        <th class="cabecalho">Pontos</th>
+      </tr>
+      <tr *ngFor="let construtor of listaConstrutores">
+        <td class="linha">{{construtor.posicao}}</td>
+        <td class="linha">{{construtor.equipe}}</td>
+        <td class="linha">{{construtor.motor}}</td>
+        <td class="linha">{{construtor.pontos}}</td>
+      </tr>
+  </table>  
+</div>
+<div class="botoes">
+  <button class="botao-like" mat-raised-button color="primary" >Like</button>
+  <button class="botao-share" mat-raised-button color="primary">Compartilhar</button>
+</div>

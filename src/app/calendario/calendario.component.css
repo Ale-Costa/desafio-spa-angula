@@ -1,0 +1,39 @@
+
+.tabela{
+     margin: auto;
+     display: flex;
+     justify-content: space-around;
+     column-gap: 40px;
+     
+}
+
+.coluna{
+     width: 80vw;
+     
+}
+
+.cabecalho{
+     background: darkblue;
+     text-align: center;
+     color: white;
+}
+
+.linha{
+     text-align: center;
+     border-bottom: solid 1px gray;
+}
+
+.botao-like{
+     background-color: darkblue;
+     margin: 10px;
+}   
+
+.botao-share{
+     background-color: gray;
+     margin: 10px;
+}
+
+.botoes{
+display: flex;
+justify-content: center;
+}
