@@ -1,5 +1,8 @@
 # Desafiospa
 
+Simples pagina onde o objetivo era criar pelo menos 3 componentes e exibi-los corretamente na pagina principal. 
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
 
 ## Development server
